@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+body{
+    background-color: #202024;
+
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: rgb(188, 213, 210);
+    padding: 1.5rem;
+}
+
+div#Nav h1,a,label,p{
+    color: #202024;
+}
+
+div#Nav form{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+div#Nav input{
+    height: 2rem;
+    font-size: 1.5rem;
+    margin: 1rem 0 3rem 0;
+    
+    border: none;
+    border-bottom: .3rem solid black;
+    outline: none;
+    color: #202024;
+    transform: all 1s ease-in-out;
+}
+
+div#Nav button#In{
+    color: #202024;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+
+    cursor: pointer;
+}
+
+div#Nav input:focus{
+    border-bottom: .3rem rgb(55, 55, 173) solid ;
+}
+
+div#Nav input:valid{
+    border-bottom: .3rem rgb(33, 215, 57) solid ;
+
+}
+
+div#Nav{
+    width: 30%;
+    height: 50%;
+    background-color: #ffffff;
+    border-radius: 2%;
+
+    position: absolute;
+    top: 30%;
+    left: 35%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+div#cadastroDiv{
+    width: 30%;
+    height: 60%;
+    background-color: #ffffff;
+    border-radius: 2%;
+
+    position: absolute;
+    top: 30%;
+    left: 35%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+div#cadastroDiv h1,a,label,p{
+    color: #202024;
+}
+
+div#cadastroDiv form{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+div#cadastroDiv input{
+    height: 2rem;
+    font-size: 1.5rem;
+    margin: 1rem 0 3rem 0;
+    
+    border: none;
+    border-bottom: .3rem solid black;
+    outline: none;
+    color: #202024;
+    transform: all 1s ease-in-out;
+}
+
+div#cadastroDiv button#In{
+    color: #202024;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+
+    cursor: pointer;
+}
+
+div#cadastroDiv input:focus{
+    border-bottom: .3rem rgb(55, 55, 173) solid ;
+}
+
+div#cadastroDiv input:valid{
+    border-bottom: .3rem rgb(33, 215, 57) solid ;
+
+}

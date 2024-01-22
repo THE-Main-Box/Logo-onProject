@@ -1,0 +1,19 @@
+<%- include('./layouts/head') %>
+    <header>
+        <h1>Cadastre-se</h1>
+    </header>
+
+    <div id="cadastroDiv">
+        <h1>Log-on</h1>
+        <form action="/create-user" method="post">
+            <input type="email" name="email" id="email" placeholder="Email" required= true>
+            <input type="password" name="password" id="password" placeholder="Password" required= true>
+            <input type="text" name="username" id="username" placeholder="User-Name" required= true>
+            <button type="submit" id="In">Cadastrar</button>
+        </form>
+        
+        <p>Já Possui Uma Conta?</p>
+        <a href="/">Logar</a>
+    </div>
+</body>
+</html>

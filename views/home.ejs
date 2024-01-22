@@ -1,0 +1,19 @@
+<%- include('./layouts/head') %>
+    <header>
+        <h1>Seja Bem-Vindo(a)</h1>
+    </header>
+
+    <div id="Nav">
+        <h1>Log-In</h1>
+        <form action="/login" method="post">
+            <input type="email" name="email" id="email" placeholder="Email" required= true>
+            <input type="password" name="senha" id="senha" placeholder="Password" required= true>
+            <button type="submit" id="In">Entrar</button>
+        </form>
+        
+        <p>Não tem Uma Conta?</p>
+        <a href="/cadastro">Cadastre-se</a>
+    </div>
+
+  </body>
+</html>
